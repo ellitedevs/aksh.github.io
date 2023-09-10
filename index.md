@@ -1,35 +1,44 @@
 ---
-title: Home
-layout: home
+layout: default
+title: Hello World - Love, AKSH 
+nav_order: 4
+description: How I created a self-service bot that made managing self-hosted labs a piece of cake. Meet AKSH, you'll love it. 
+
+permalink: /
 ---
+# Hello World - Love, AKSH
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+--
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Necessity is the mother of invention. That's how AKSH came into being.
 
-More specifically, the created site:
+When I created the course [Red Team Adversary Emulation: Mimicking a real-world cyber attack](https://yks.red/RTAE), I wanted to provide a means to students to practice the attacks in a real-world lab. I wanted to do so without digging a hole in their pockets. I approached a few companies (well, one company TBH) which could make this possible but it didn't work out. Left with no choice and a determined will to make it possible for students, I set out to learn how to create Discord bots and make them interact with AWS APIs. Lo and behold, AKSH appeared on the planet.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+## What is AKSH?
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+Before you think I am harboring an alien of some kind, I am not. 
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+AKSH is a Discord bot that interfaces with AWS via APIs to automate various aspects of managing labs on AWS infrastructure. For example, through AKSH, students can deploy a lab in their own AWS account by issuing a single command (!deploy, that's it). Behind the scences, AKSH will setup all the necessary lab components (VPC, subnets, gateways, security groups, EC2 instances etc.) without any human intervention. What's more? AKSH can deploy [and manage] multiple labs (as and when I create more of them) of different complexities at the same time (!deploy -lab name-, that's it).     
 
-To get started with creating a site, simply:
+## Okay AKSH, What can you do?
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+AKSH features the core functionality students will need to self-manage a lab. Additionally, it also caters to few ancillary commands. Here's the list of commands AKSH responds to:
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+ - ### Lab Management
+   - !deploy - Deploy the lab.
+   - !destroy - Destroy the lab.
+   - !start - Start lab machines. This command takes in either a single machine name or ALL to start all machines.
+   - !stop - Stop lab machines. This command takes in either a single machine name or ALL to stop all machines.
+   - !reboot - Reboot lab machines. This command takes in either a single machine name or ALL to reboot all machines.
+   - !revert - Revert lab machines to their original state. This command takes in either a single machine name or ALL to revert all machines.
+     
+ - ### Ancillary Commands
+   - !list - Lists the name of all lab machines.
+   - !status - Display the status of lab machines. This command takes in either a single machine name or ALL to list status of all machines.
+   - !showinfo - Display lab access details.
+   - !ss - Display real-time updates of a lab management operation. (_Fun fact: This command was originally !showstatus but it was too much to type frequently, so I shortened it to !ss. Now you know what ss stands for._)
 
-----
+## I am interested in trying out AKSH, where do I sign-up?
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+Currently, access to AKSH is restricted to students of the [Red Team Adversary Emulation: Mimicking a real-world cyber attack](https://yks.red/RTAE) course. If you have purchased or have been provided access to the course, please fill out the [Red Team Adversary Emulation Lab - Self-hosting Prerequisites and Eligibility Form](https://yks.red/RTAELabForm).
+ 
