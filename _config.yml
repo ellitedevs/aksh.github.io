@@ -14,7 +14,7 @@ remote_theme: pmarsceill/just-the-docs
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: AKSH
+title: AKSH - Deploy & manage cloud labs with ease.
 tagline: Depoly and manage cloud labs with ease.
 summary: AKSH is a Discord bot that enables users to depoly and manage cloud labs with ease.
 #baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
