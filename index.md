@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hello World - Love, AKSH 
-nav_order: 4
+nav_order: 1
 description: How I created a self-service bot that made managing self-hosted labs a piece of cake. Meet AKSH, you'll love it. 
 
 permalink: /
