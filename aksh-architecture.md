@@ -9,4 +9,4 @@ permalink: /journey-from-command-to-cloud-lab-aksh-architecutre
 # Designing the journey from a command to a cloud lab
 
 -
-![AKSH Architecture](/images/AKSH-Arch.jpg "AKSH Architecture)
+![AKSH Architecture](/images/AKSH-Arch.jpg "AKSH Architecture")
