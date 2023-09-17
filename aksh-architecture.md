@@ -32,7 +32,7 @@ The following five components spin like gears behind the scene and bring AKSH to
 --
 
 Here's how AKSH transforms a simple message into a full-fledged cloud lab (the above diagram will help you visualize this journey):
- 1. **User sends a message** - User uses the messaging app client (mobile or desktop) to send a message to AKSH.
+ 1. **User sends a message** - User uses the messaging app client (mobile or desktop) to send a message (aka command) to AKSH.
  2. **AKSH receives the message** - The message travels from the messaging app client to the messaging app servers via their API. The messaging app servers delivers that message to the Bot Listener via another set of API.
  3. **Identifies user intent** - The Bot Listener hands-over that message to the Lab Management Framework. The Lab Management Frameworks identifies the user's intent (i.e. the action user wants to perform on the cloud lab - deploy the lab, stop a machine, revert a machine etc.) and the lab configuration to be used. If the user has sent the name of the lab as part of the message, the corresponding lab configuration file will be used. If not, the default lab configuration file will be used. 
  4. **Generates a set of compute actions** - Based on the user's intent and the lab configuration to be used, AKSH generates a set of compute actions. A user intent may result in one or more compute actions.
