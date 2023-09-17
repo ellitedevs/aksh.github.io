@@ -4,7 +4,7 @@ title: The transformation of a message to a cloud lab via AKSH
 nav_order: 2
 description: An overview of AKSH's architecture and it's internals
 
-permalink: /transformation-of-message-to-cloud-lab-aksh-architecutre
+permalink: /transformation-of-message-to-cloud-lab-aksh-architecture
 ---
 # The transformation of a message to a cloud lab via AKSH
 
