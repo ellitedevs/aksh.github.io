@@ -9,9 +9,7 @@ permalink: /transformation-of-message-to-cloud-lab-aksh-architecutre
 # The Transformation of a Message to a Cloud Lab
 
 -- 
-![AKSH Architecture](/images/AKSH-Arch.jpg "AKSH Architecture")
 
---
 
 AKSH is a messaging bot that interfaces with a cloud service provider via APIs to automate various aspects of managing labs on their infrastructure. For example, through AKSH, students can deploy a lab in their own AWS account by issuing a single command. If you are visiting this website for the first time, please [read this post](https://aksh.one/#hello-world---love-aksh) for AKSH to formally introduce itself.
 
@@ -28,6 +26,10 @@ The following five components spin like gears behind the scene and bring AKSH to
  - **Compute Action** - A compute action is an operation that will be performed at the cloud servrice provider's end (e.g., launch a compute instance, terminate instance, create snapshots etc.).   
 
 ## How the magic happens? 
+-- 
+![AKSH Architecture](/images/AKSH-Arch.jpg "AKSH Architecture")
+
+--
 
 Here's how AKSH transforms a simple message into a full-blown cloud lab (the above diagram will help you visualize this journey):
  1. User sends a message - User uses the messaging app client (mobile or desktop) to send a message to AKSH.
