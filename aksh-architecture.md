@@ -13,7 +13,7 @@ permalink: /transformation-of-message-to-cloud-lab-aksh-architecutre
 
 AKSH is a messaging bot that interfaces with a cloud service provider via APIs to automate various aspects of managing labs on their infrastructure. For example, through AKSH, students can deploy a lab in their own AWS account by issuing a single command. If you are visiting this website for the first time, please [read this post](https://aksh.one/#hello-world---love-aksh) for a formal introduction to AKSH.
 
-In this post, I will explain how AKSH transforms a user's message (or command) to a full-blown cloud lab. However, before we delve into it let's have a closer look at AKSH's internals.
+In this post, I will explain how AKSH transforms a user's message (or command) to a full-fledged cloud lab. However, before we delve into it let's have a closer look at AKSH's internals.
 
 ## Core components of AKSH
 
@@ -31,7 +31,7 @@ The following five components spin like gears behind the scene and bring AKSH to
 
 --
 
-Here's how AKSH transforms a simple message into a full-blown cloud lab (the above diagram will help you visualize this journey):
+Here's how AKSH transforms a simple message into a full-fledged cloud lab (the above diagram will help you visualize this journey):
  1. **User sends a message** - User uses the messaging app client (mobile or desktop) to send a message to AKSH.
  2. **AKSH receives the message** - The message travels from the messaging app client to the messaging app servers via their API. The messaging app servers delivers that message to the Bot Listener via another set of API.
  3. **Identifies user intent** - The Bot Listener hands-over that message to the Lab Management Framework. The Lab Management Frameworks identifies the user's intent (i.e. the action user wants to perform on the cloud lab - deploy the lab, stop a machine, revert a machine etc.) and the lab configuration to be used. If the user has sent the name of the lab as part of the message, the corresponding lab configuration file will be used. If not, the default lab configuration file will be used. 
