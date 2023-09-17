@@ -1,12 +1,12 @@
 ---
 layout: default
-title: The transformation of a message to a cloud lab 
+title: The Transformation of a Message to a Cloud Lab 
 nav_order: 2
 description: An overview of AKSH's architecture and how does it work  
 
 permalink: /transformation-of-message-to-cloud-lab-aksh-architecutre
 ---
-# The transformation of a message to a cloud lab
+# The Transformation of a Message to a Cloud Lab (AKSH Architecture)
 
 -- 
 ![AKSH Architecture](/images/AKSH-Arch.jpg "AKSH Architecture")
