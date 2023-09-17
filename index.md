@@ -18,7 +18,7 @@ When I created the course [Red Team Adversary Emulation: Mimicking a real-world 
 
 Before you think I am harboring an alien of some kind, I am not. 
 
-AKSH is a Discord bot that interfaces with AWS via APIs to automate various aspects of managing labs on AWS infrastructure. For example, through AKSH, students can deploy a lab in their own AWS account by issuing a single command (!deploy, that's it). Behind the scences, AKSH will setup all the necessary lab components (VPC, subnets, gateways, security groups, EC2 instances etc.) without any human intervention. What's more? AKSH can deploy [and manage] multiple labs (as and when I create more of them) of different complexities at the same time (!deploy -lab name-, that's it).     
+AKSH is a messaging bot that interfaces with AWS via APIs to automate various aspects of managing labs on AWS infrastructure. For example, through AKSH, students can deploy a lab in their own AWS account by issuing a single command (!deploy, that's it). Behind the scences, AKSH will setup all the necessary lab components (VPC, subnets, gateways, security groups, EC2 instances etc.) without any human intervention. What's more? AKSH can deploy [and manage] multiple labs (as and when I create more of them) of different complexities at the same time (!deploy -lab name-, that's it).     
 
 ## Okay AKSH, What can you do?
 
