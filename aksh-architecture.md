@@ -23,7 +23,7 @@ The following five components spin like gears behind the scene and bring AKSH to
  - **Lab Management Framework** - Command framework that enables AKSH to understand user's intent and invoke Compute Engine.
  - **Lab Configuration Files (JSON)** - Infrastructure as a Code (IaaC) file, written in JSON, containing a cloud lab's architecture and configuration details. It is used by the Lab Management Framework and Compute Engine to translate user's intent into compute actions.
  - **Compute Engine** - Translates user's intent into compute actions, performs those actions via cloud service provider's API and returns their result.
- - **Compute Action** - A compute action is an operation that will be performed at the cloud servrice provider's end (e.g., launch a compute instance, terminate instance, create snapshots etc.).   
+ - **Compute Action** - An operation that is performed at the cloud servrice provider's end (e.g., launch a compute instance, terminate instance, create snapshots etc.).   
 
 ## How the magic happens? 
 -- 
