@@ -11,7 +11,7 @@ permalink: /transformation-of-message-to-cloud-lab-aksh-architecture
 -- 
 
 
-AKSH is a messaging bot that interfaces with a cloud service provider via APIs to automate various aspects of managing labs on their infrastructure. For example, through AKSH, students can deploy a lab in their own AWS account by issuing a single command. If you are visiting this website for the first time, please [read this post](https://aksh.one/#hello-world---love-aksh) for a formal introduction to AKSH.
+AKSH is a messaging bot that interfaces with a cloud service provider via APIs to automate various aspects of managing labs on their infrastructure. For example, through AKSH, students can deploy a lab in their own AWS account by issuing a single command. If you are visiting this website for the first time, please [read this post](https://aksh.yaksas.in/#hello-world---love-aksh) for a formal introduction to AKSH.
 
 In this post, I will explain how AKSH transforms a user's message (or command) to a full-fledged cloud lab. However, before we delve into it let's have a closer look at AKSH's internals.
 
